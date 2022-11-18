@@ -1,0 +1,103 @@
+.navbar ul{
+  margin: 0 ;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+top: 0;
+
+}
+.navbar li {
+  list-style-type: none;
+  float: left;
+  width: 112px;
+height: 30px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+color: #2A1033;
+flex: none;
+order: 3;
+flex-grow: 0;
+}
+.section1 h1{
+position: absolute;
+width: 732px;
+height: 172px;
+left: 100px;
+top: 360px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 134%;
+color: #2A1033;
+}
+.section1 p1{
+  position: absolute;
+width: 739px;
+height: 108px;
+left: 100px;
+top: 590px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 36px;
+color: #2A1033;
+
+
+}
+.regfreebtn{
+  display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 15px ;
+gap: 10px;
+position: absolute;
+width: 250px;
+height: 50px;
+left: 100px;
+top: 700px;
+background: #2A1033;
+border-radius: 30px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+color: #F6DCFF;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.section2 h2{
+  position: absolute;
+width: 270px;
+height: 60px;
+left: 100px;
+top: 1047px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 60px;
+color: #2A1033;
+}
+.section2 p1{
+position: absolute;
+width: 540px;
+height: 396px;
+left: 100px;
+top: 1130px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 36px;
+color: #461B55;
+
+}
