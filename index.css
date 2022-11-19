@@ -240,9 +240,9 @@ color: #F6DCFF;
 }
 .section4{
   position: absolute;
-width: 1461px;
+width: 1200px;
 height: 680px;
-left: -11px;
+left: 0px;
 top: 2467px;
 background: #2A1033;
 }
@@ -262,16 +262,30 @@ color: #000000;
 }
 .section5{
   position: absolute;
-width: 1461px;
+width: 1200px;
 height: 639px;
-left:-11px;
+left:0px;
 top: 3147px;
 
 background: #E8A8FF;
 }
+.section6{
+  position: absolute;
+width: 975px;
+height: 36px;
+left: 200px;
+top: 3895px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 36px;
+text-align: center;
+color: #2A1033
+}
 footer{
   position: absolute;
-width: 1440px;
+width: 1200px;
 height: 500px;
 left: 0px;
 top: 5400px;
