@@ -1,0 +1,85 @@
+body{
+    position: absolute;
+width: 587px;
+height: 546px;
+left: 0px;
+top: 0px;
+background: #2A1033;
+}
+p1{
+    position: absolute;
+width: 381px;
+height: 48px;
+left: 470px;
+top: 380px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 48px;
+/* identical to box height */
+
+
+/* 1 */
+
+color: #F6DCFF;
+
+}
+p2{
+    position: absolute;
+width: 310px;
+height: 60px;
+left: 500px;
+top: 420px;
+
+/* Body text 1 */
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+text-align: center;
+
+/* 1 */
+
+color: #F6DCFF;
+
+}
+.continuebtn{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 10px;
+position: absolute;
+width: 138px;
+height: 50px;
+left: 580px;
+top: 500px;
+background: #E08AFE;
+border-radius: 21px;
+
+width: 150px;
+height: 50px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+color: #000000;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.displaypic{
+    position: absolute;
+width: 285px;
+height: 285px;
+left: 139px;
+top: 17px;
+
+background: url("/chimpaidhtml/");
+}
