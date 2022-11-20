@@ -1,0 +1,28 @@
+body{
+    position: absolute;
+width: 723px;
+height: 957px;
+left: 717px;
+top: 1px;
+
+/* 1 */
+
+background: #F6DCFF;
+}
+
+p1{
+ position: absolute;
+width: 338px;
+height: 72px;
+left: 815px;
+top: 218px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 36px;
+
+/* 11 */
+
+color: #2A1033;
