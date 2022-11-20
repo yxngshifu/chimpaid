@@ -364,12 +364,26 @@ color: #F6DCFF;
 
 
 }
-.section4{
+.section4 h2{
+  position: absolute;
+width: 447px;
+height: 60px;
+left: 430px;
+top: 31px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 60px;
+color: #F6DCFF;
+}
+.section4 p1{
   position: absolute;
 width: 975px;
 height: 72px;
-left: 230px;
-top: 2300px;
+left: 150px;
+top: 120px;
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 400;
@@ -377,6 +391,85 @@ font-size: 24px;
 line-height: 36px;
 text-align: center;
 color: #F6DCFF;
+}
+.section4 p2{
+  position: absolute;
+width: 236px;
+height: 36px;
+left: 530px;
+top: 346px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 36px;
+text-align: center;
+color: #F6DCFF;
+}
+.section4 p3{
+  position: absolute;
+width: 236px;
+height: 36px;
+left: 180px;
+top: 501px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 36px;
+text-align: center;
+color: #F6DCFF;
+}
+.marcus{
+  
+
+position: absolute;
+width: 151px;
+height: 130px;
+left: 570px;
+top: 210px;
+border: 5px solid #F0C5FF;
+}
+.miriam{
+  position: absolute;
+width: 120px;
+height: 120px;
+left: 230px;
+top: 364px;
+border: 5px solid #F0C5FF;
+
+}
+.jordan{
+  position: absolute;
+width: 120px;
+height: 120px;
+left: 910px;
+top: 370px;
+border: 5px solid #F0C5FF;
+
+}
+.section4 p4{
+  position: absolute;
+width: 236px;
+height: 36px;
+left: 860px;
+top: 501px;
+
+/* Sub header 3 */
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height */
+
+text-align: center;
+
+/* 1 */
+
+color: #F6DCFF;
+
 }
 .section4{
   position: absolute;
@@ -386,12 +479,25 @@ left: 0px;
 top: 2467px;
 background: #2A1033;
 }
-.section5{
- position: absolute;
+.section5 h2{
+  position: absolute;
+width: 295px;
+height: 60px;
+left: 500px;
+top: 31px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 60px;
+color: #000000;
+}
+.section5 p1{
+  position: absolute;
 width: 975px;
 height: 36px;
-left: 230px;
-top: 3200px;
+left: 150px;
+top: 130px;
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 400;
@@ -400,29 +506,93 @@ line-height: 36px;
 text-align: center;
 color: #000000;
 }
+.section5 p2 {
+  position: absolute;
+width: 236px;
+height: 36px;
+left: 520px;
+top: 330px;
+
+/* Sub header 3 */
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height */
+
+text-align: center;
+
+color: #000000;
+
+}
+.section5 p3{
+  position: absolute;
+width: 673px;
+height: 90px;
+left: 300px;
+top: 400px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+text-align: center;
+color: #000000;
+
+}
 .section5{
   position: absolute;
 width: 1200px;
 height: 639px;
 left:0px;
 top: 3147px;
-
 background: #E8A8FF;
 }
-.section6{
+.part1 h2{
+ position: absolute;
+width: 756px;
+height: 60px;
+left: 280px;
+top: 3828px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 60px;
+color: #2A1033;
+}
+.part1 p1{
   position: absolute;
 width: 975px;
 height: 36px;
-left: 200px;
-top: 3895px;
+left: 150px;
+top: 3920px;
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 400;
 font-size: 24px;
 line-height: 36px;
 text-align: center;
-color: #2A1033
+color: #2A1033;
+
 }
+.part1 p2{
+  position: absolute;
+width: 975px;
+height: 30px;
+left: 150px;
+top: 3950px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+text-align: center;
+color: #8B35A9;
+}
+
 footer{
   position: absolute;
 width: 1200px;
