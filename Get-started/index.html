@@ -13,51 +13,53 @@
         <p1 class="content">Fill the form below to register for free</p1>
    <form id="signup" class="form1">
 
-        <div class="form-field">
-                <label for="firstname">First Name:</label>
-                <input type="text" name="firstname" id="firstname" autocomplete="off">
+        <div class="form-field" class="form-field-error">
+                <label class="Firstname"  for="firstname">First Name :</label>
+                <input type="text" class="firstname" name="firstname" id="firstname" autocomplete="off">
                 <small></small>
         </div>   
 <!--end of first name column-->
 
          <div class="form-field">
-                <label for="lastname">Last Name:</label>
-                <input type="text" name="lastname" id="lastname" autocomplete="off">
+                <label class="Lastname" for="lastname">Last Name :</label>
+                <input type="text"class="lastname" name="lastname" id="lastname" autocomplete="off">
                 <small></small>
          </div>   
 
 <!--end of last name column-->         
          
         <div class="form-field">
-                <label for="email">Email address:</label>
-                <input type="text" name="email" id="email" autocomplete="off">
+                <label class="Email" for="email">Email address :</label>
+                <input type="text" class="email" name="email" id="email" autocomplete="off">
                 <small></small>
          </div>
 
 <!--end of email address column--> 
 
          <div class="form-field">
-                <label for="password">Password:</label>
-                <input type="password" name="password" id="password" autocomplete="off">
+                <label class="Password" for="password">Password:</label>
+                <input type="password" class="password" name="password" id="password" autocomplete="off">
                 <small></small>
          </div>
 
 
          <div class="form-field">
-                <label for="confirm-password">Confirm Password:</label>
-                <input type="password" name="confirm-password" id="confirm-password" autocomplete="off">
+                <label class="Confpassword" for="confirm-password">Confirm Password:</label>
+                <input type="password" class="confpassword" name="confirm-password" id="confirm-password" autocomplete="off">
                 <small></small>
          </div>
 
 <!--end of password column--> 
       
          <div class="form-field">
-                <input type="submit" value="Sign Up">
+                <input class="signin" type="submit" value="Sign Up">
          </div>
 
- <!--end of signup column--> 
+ <!--end of button column--> 
         </div>
-   </form>
+   
+    <!--end of signup column--> 
+    </form>
 
 
 
@@ -65,27 +67,43 @@
 
 
 
-<div class="container2" >
+    <div class="container2">
     <h1 class="header2">Sign in</h1>
     <p class="content2">Provide your login details to<br>
     sign into your account </p>
- <div class="emailpart">
-    <label class="emailsignin"for="Email address"><b>Email address</b></label>
-    <input class="emailadd2"type="text" placeholder="Enter Email address" name="Emailsignin"required>
-  </div>
-<div class="pswpart">
-
-    <label class="signinpsw"for="psw-repeat"><b>Password</b></label>
-    <input class="signinpass" type="password" placeholder="Enter Password" name="signinpass" required>
- </div>
-    <button type="submit" class="signinbtn">Sign in</button>
- <div class="signingoogle">
-    <button type="submit" class="googlesignin">Sign in with Google</button>
-  </div>
-    <!--end of sign in column-->
-</div>
-    </div>
-     <script src="js/app.js"></script>
     
+  <form id="signin" class="form2">
+ <div class="form-field2">
+                <label for="emailsignin">Email:</label>
+                <input type="text" name="emailsignin" id="emailsignin" autocomplete="off">
+                <small></small>
+ </div>
+             <!--end of email column-->
+             
+ <div class="form-field2">
+                <label for="password">Password:</label>
+                <input type="passwordsignin" name="passwordsignin" id="passwordsignin" autocomplete="off">
+                <small></small>
+ </div>
+
+             <!--end of password column-->
+
+
+ <div class="form-field2">
+                <input type="submit" value="Sign Up">
+</div>
+       <!--end of buttoncolumn-->
+
+
+ <div class="signingoogle">
+         <button type="submit" class="googlesignin">Sign in with Google</button>
+  </div>
+    <!--end of sign in with google column-->
+  </form>
+    </div>
+
+
+     <script src="js/app.js"></script>
+</div>   
 </body>
 </html>

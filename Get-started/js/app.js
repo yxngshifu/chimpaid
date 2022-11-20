@@ -34,9 +34,9 @@ const checkLastname = () => {
     const lastname =lastnameLn.value.trim();
 
     if (!isRequired(lastname)) {
-        showError(lastnameLn, 'Username cannot be blank.');
+        showError(lastnameLn, 'last name cannot be blank.');
     } else if (!isBetween(lastname.length, min, max)) {
-        showError(lastnameLn, `Username must be between ${min} and ${max} characters.`)
+        showError(lastnameLn, `last must be between ${min} and ${max} characters.`)
     } else {
         showSuccess(lastnameLn);
         valid = true;
