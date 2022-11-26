@@ -923,12 +923,12 @@ left: 20px;
 top: 149px;
 }
 .about{
-  width: 80px;
-height: 36px;
+  width: 100px;
+height: 30px;
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 600;
-font-size: 24px;
+font-size: 20px;
 line-height: 36px;
 color: #F6DCFF;
 flex: none;
@@ -941,9 +941,9 @@ padding: 0px;
 gap: 11px;
 list-style-type: none;
 position: absolute;
-width: 114px;
-height: 147px;
-left: 350px;
+width: 130px;
+height: 100px;
+left: 320px;
 top: 58px;
 }
 .quicklinks{
@@ -952,7 +952,7 @@ height: 36px;
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 600;
-font-size: 24px;
+font-size: 20px;
 line-height: 36px;
 color: #F6DCFF;
 flex: none;
@@ -967,7 +967,7 @@ list-style-type: none;
 position: absolute;
 width: 189px;
 height: 147px;
-left: 550px;
+left: 520px;
 top: 58px;
 }
 .socials{
@@ -976,7 +976,7 @@ height: 36px;
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 600;
-font-size: 24px;
+font-size: 20px;
 line-height: 36px;
 color: #F6DCFF;
 flex: none;
@@ -992,8 +992,8 @@ list-style-type: none;
 position: absolute;
 width: 147.28px;
 height: 244.39px;
-left: 820px;
-top: 58px;
+left: 790px;
+top: 80px;
 
 }
 .support{
@@ -1002,7 +1002,7 @@ height: 36px;
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 600;
-font-size: 24px;
+font-size: 20px;
 line-height: 36px;
 color: #F6DCFF;
 flex: none;
@@ -1018,7 +1018,7 @@ list-style-type: none;
 position: absolute;
 width: 202px;
 height: 147px;
-left: 1020px;
-top: 58px;
+left: 990px;
+top: 70px;
 
 }
