@@ -6,6 +6,15 @@ left: 0px;
 top: 0px;
 background: #2A1033;
 }
+img{
+    position: absolute;
+width: 285px;
+height: 285px;
+left: 139px;
+top: 17px;
+
+
+}
 p1{
     position: absolute;
 width: 381px;
@@ -74,12 +83,11 @@ flex: none;
 order: 0;
 flex-grow: 0;
 }
-.displaypic{
+img{
     position: absolute;
 width: 285px;
 height: 285px;
-left: 139px;
-top: 17px;
+left: 500px;
+top: 70px;
 
-background: url("/chimpaidhtml/");
 }
