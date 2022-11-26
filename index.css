@@ -196,6 +196,28 @@ top: -17px;
 background: url("sec2.png");
 
 }
+.earnboximage img{
+  position: absolute;
+width: 286px;
+height: 286px;
+left: 18px;
+top: -10px;
+
+}
+.boostboximage img{
+  position: absolute;
+width: 221px;
+height: 183px;
+left: 42px;
+top: 43px;
+}
+.getboximage img{
+  position: absolute;
+width: 276px;
+height: 359px;
+left: 30px;
+top: -22px;
+}
 .learnmore{
 box-sizing: border-box;
 width: 200px;
@@ -489,15 +511,14 @@ line-height: 36px;
 text-align: center;
 color: #F6DCFF;
 }
-.marcus{
-  
+.image1 img{
+box-sizing: border-box;
 
 position: absolute;
 width: 151px;
-height: 130px;
-left: 570px;
-top: 210px;
-border: 5px solid #F0C5FF;
+height: 151px;
+left: 655px;
+top: 219px;
 }
 .miriam{
   position: absolute;
