@@ -1,23 +1,23 @@
-.privacy{
-    position: absolute;
+.headerbackground{
+   position: absolute;
 width: 1440px;
 height: 105px;
 left: 0px;
 top: 127px;
 background: #2A1033;
-width: 424px;
+}
+.privacy{
+  width: 424px;
 height: 48px;
-
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 600;
 font-size: 32px;
 line-height: 48px;
 color: #F6DCFF;
-
 flex: none;
 order: 1;
-flex-grow: 0
+flex-grow: 0;
 }
 .firstp{
 position: absolute;
@@ -32,7 +32,76 @@ font-size: 20px;
 line-height: 30px;
 color: #2A1033;
 }
+.section2 h3{
+position: absolute;
+width: 1090px;
+height: 30px;
+left: 119px;
+top: 500px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 30px;
+color: #2A1033;
+}
+.section2 h4{
+position: absolute;
+width: 1090px;
+height: 30px;
+left: 119px;
+top: 520px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 30px;
+color: #2A1033;
+}
+.section2 p1{
+  position: absolute;
+width: 1189px;
+height: 240px;
+left: 119px;
+top: 560px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+color: #2A1033;
+}
+.section3 h2{
+  position: absolute;
+width: 1090px;
+height: 30px;
+left: 119px;
+top: 750px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 30px;
+color: #2A1033;
 
+}
+.section3 p1{
+  position: relative;
+width: 1189px;
+height: 240px;
+left: 110px;
+top: 700px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+
+/* 11 */
+
+color: #2A1033;
+
+}
 footer{
   position: absolute;
 width: 1200px;
