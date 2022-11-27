@@ -344,6 +344,7 @@ top: 2300px;
 background: #E08AFE;
 border-radius: 21px;
 }
+
 .boostbox p1{
   position: absolute;
 width: 350px;
@@ -357,6 +358,7 @@ font-size: 20px;
 line-height: 30px;
 color: #F6DCFF;
 }
+
 .statement2{
   position: absolute;
 width: 283px;
@@ -776,6 +778,27 @@ flex: none;
 order: 0;
 flex-grow: 0;
 }
+.gold img{
+  position: absolute;
+width: 290px;
+height: 290px;
+left: 510px;
+top: 4164px;
+}
+.part3 img{
+  position: absolute;
+width: 259px;
+height: 259px;
+left: 129px;
+top: 4350px;
+}
+.part4 img{
+  position: absolute;
+width: 259.25px;
+height: 259px;
+left: 870px;
+top: 4300px;
+}
 .part3 h3{
   position: absolute;
 width: 109px;
@@ -940,7 +963,7 @@ flex-grow: 0;
 footer{
   position: absolute;
 width: 1200px;
-height: 500px;
+height: 400px;
 left: 0px;
 top: 5400px;
 background: #2A1033;
@@ -1057,4 +1080,33 @@ height: 147px;
 left: 990px;
 top: 70px;
 
+}
+.footerlogo img{
+  position: absolute;
+width: 132px;
+height: 82px;
+left: 20px;
+top: 57px;
+}
+.bottom p2{
+  position: absolute;
+width: 461px;
+height: 24px;
+left: 143px;
+top: 318px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #F6DCFF;
+
+}
+.bottom img{
+  position: absolute;
+left: 6.94%;
+right: 90.62%;
+top: 78.05%;
+bottom: 13.22%;
+background: #F6DCFF;
 }

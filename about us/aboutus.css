@@ -1,6 +1,21 @@
 html {
   min-height: 100%;
 }
+a:link {
+      text-decoration: none;
+}
+
+a:visited {
+      text-decoration: none;
+}
+
+a:hover {
+      text-decoration: none;
+}
+
+a:active {
+      text-decoration: none;
+}
 
 .navbar ul{
   margin: 0 ;
@@ -79,16 +94,7 @@ flex: none;
 order: 0;
 flex-grow: 0;
 }
-.section0{
-  background: linear-gradient(359.77deg, rgba(104, 40, 127, 0.74) -10.62%, rgba(104, 40, 127, 0) 29.94%);
-background: url(aboutus1.png);
-  position: absolute;
-width: 4000px;
-height: 2000px;
-left: 0px;
-top: 0px;
- background-repeat: no-repeat;
-}
+
 
 .section1 h1{
   position: absolute;
@@ -159,14 +165,20 @@ width: 400px;
 height: 400px;
 left: 200px;
 top: 100px;
-
+}
+.teampic img{
+  position: absolute;
+width: 450px;
+height: 450px;
+left: 400px;
+top: 1900px;
 
 }
 .section3 h2{
     position: absolute;
 width: 240px;
 height: 60px;
-left: 595.5px;
+left: 540px;
 top: 1697px;
 font-family: 'Poppins';
 font-style: normal;
@@ -179,7 +191,7 @@ color: #2A1033;
     position: absolute;
 width: 199px;
 height: 36px;
-left: 629.5px;
+left: 570px;
 top: 1790px;
 font-family: 'Poppins';
 font-style: normal;
@@ -190,14 +202,14 @@ color: #8B35A9;
 }
 .section3 p2{
     position: absolute;
-width: 1196px;
-height: 90px;
-left: 122px;
+width: 1100px;
+height: 70px;
+left: 100px;
 top: 1820px;
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 400;
-font-size: 20px;
+font-size: 15px;
 line-height: 30px;
 text-align: center;
 color: #2A1033;
@@ -614,7 +626,7 @@ height: 36px;
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 600;
-font-size: 24px;
+font-size: 20px;
 line-height: 36px;
 color: #F6DCFF;
 flex: none;
@@ -638,7 +650,7 @@ height: 36px;
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 600;
-font-size: 24px;
+font-size: 20px;
 line-height: 36px;
 color: #F6DCFF;
 flex: none;
@@ -662,7 +674,7 @@ height: 36px;
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 600;
-font-size: 24px;
+font-size: 20px;
 line-height: 36px;
 color: #F6DCFF;
 flex: none;
@@ -678,8 +690,8 @@ list-style-type: none;
 position: absolute;
 width: 147.28px;
 height: 244.39px;
-left: 820px;
-top: 58px;
+left: 800px;
+top: 80px;
 
 }
 .support{
@@ -688,7 +700,7 @@ height: 36px;
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 600;
-font-size: 24px;
+font-size: 20px;
 line-height: 36px;
 color: #F6DCFF;
 flex: none;
@@ -704,7 +716,7 @@ list-style-type: none;
 position: absolute;
 width: 202px;
 height: 147px;
-left: 1020px;
-top: 58px;
+left: 990px;
+top: 70px;
 
 }
