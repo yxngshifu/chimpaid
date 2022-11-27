@@ -1,28 +1,146 @@
 body{
-    position: absolute;
-width: 723px;
-height: 957px;
-left: 717px;
-top: 1px;
-
-/* 1 */
-
 background: #F6DCFF;
 }
+a:link {
+      text-decoration: none;
+}
 
-p1{
- position: absolute;
-width: 338px;
+a:visited {
+      text-decoration: none;
+}
+
+a:hover {
+      text-decoration: none;
+}
+
+a:active {
+      text-decoration: none;
+}
+.header{
+    position: absolute;
+width: 468px;
 height: 72px;
-left: 815px;
-top: 218px;
+left: 550px;
+top: 146px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 72px;
+color: #2A1033;
 
+}
+.container1 p1{
+    position: absolute;
+width: 800px;
+height: 72px;
+left: 500px;
+top: 250px;
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 400;
 font-size: 24px;
 line-height: 36px;
+color: #2A1033;
+}
+.Email{
+    position: absolute;
+width: 150px;
+height: 24px;
+left: 500px;
+top: 340px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #2A1033;
+
+}
+.Email2{
+    box-sizing: border-box;
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 10px;
+gap: 10px;
+position: absolute;
+width: 322px;
+height: 37px;
+left: 500px;
+top: 380px;
+background: #FFFFFF;
+border: 1px solid #2A1033;
+border-radius: 13px;
+}
+.Password{
+    position: absolute;
+width:90px;
+height: 24px;
+left: 500px;
+top: 450px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #2A1033;
+
+}
+.password2{
+    box-sizing: border-box;
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 10px;
+gap: 196px;
+position: absolute;
+width: 322px;
+height: 40px;
+left: 500px;
+top: 480px;
+background: #FFFFFF;
+border: 1px solid #2A1033;
+border-radius: 13px;
+}
+.forgotpassword{
+    position: absolute;
+width: 116px;
+height: 21px;
+left: 500px;
+top: 540px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+
 
 /* 11 */
 
 color: #2A1033;
+
+}
+.signin{
+    position: absolute;
+width: 723px;
+height: 957px;
+left: 500px;
+top: 580px;
+background: #F6DCFF;
+width: 80px;
+height: 50px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+color: #2A1033;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
